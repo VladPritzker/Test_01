@@ -13,4 +13,5 @@ describe('Open tab at the same page', ()=> {
         cy.visit('http://www.webdriveruniversity.com/index.html')
         cy.contains('Automationteststore').invoke('removeAttr', 'target').click()
     });
+
 });
